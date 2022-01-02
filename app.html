@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title id="titlee"></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='config/main.js'></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">
+            <H1>Temporizador Online</H1>
+        </div>
+
+        <div class="center">
+
+            <div id = "form" class="form-time">
+                <form action="" method="POST">
+                    <label for="hours">Horas</label>
+                    <br>
+                    <input id="hour" type="number" name="hours" value=00 />
+                    <br>
+                    <label for="minutes">Minutos</label><br>
+                    <input id="minute" type="number" name="minutes" value=00 />
+                    <br>
+                    <label for="seconds">Segundos</label><br>
+                    <input id="second" type="number" name="seconds" value=00 />
+                    <br>
+                    <button id="start" name="data" type="button" onclick="getData()">Iniciar</button>
+                    <button id="cancel" name="data" type="button" onclick="desligar()">Cancelar</button>
+                </form>
+            </div>
+            <div id="countdown">
+                <h1 id="clock">
+                    <!--CONTAGEM-->
+                    00:00:00
+                </h1>
+            </div>
+
+        </div>
+        
+        
+        <div class="above">
+            <hr>
+        </div>
+        <footer>
+            <div class="footer">
+                <p>Desenvolvido Por Gabriel S. (zGabdevz)</p>
+                <p> 2022 </p>
+            </div>
+        </footer>
+        
+    </div>
+    
+    <script src="config/script.js"></script>
+</body>
+</html>
