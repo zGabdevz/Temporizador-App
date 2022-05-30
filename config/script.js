@@ -1,7 +1,7 @@
         var verif = false;
-        // var btnbegin = document.getElementById("start");
-        // var form = document.getElementById("form");
-        // var view = document.getElementById("clock");
+        var btnbegin = document.getElementById("start");
+        var form = document.getElementById("form");
+        var view = document.getElementById("clock");
 
         function desligar()
         {
