@@ -110,9 +110,9 @@
                         setTimeout(function(){
                              verif=false;
                              btnbegin.disabled = false;
+                             btnbegin.style="background-color:#00FA9A;";
                              view.style="color:#B0C4DE;";
-                             btnbegin.style="color:#00FA9A;";
-                            alert("TEMPO ACABOU!"); 
+                             alert("TEMPO ACABOU!"); 
                         },2000)
                     }
                     
