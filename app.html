@@ -20,29 +20,30 @@
 
             <div id = "form" class="form-time">
                 <form action="" method="POST">
-                    <label for="hours">Horas</label>
+                    <!-- <label for="hours">Horas</label> -->   
                     <br>
-                    <input id="hour" type="number" name="hours" value=00 />
+                    <input id="hour" type="number" name="hours" value="00" /> 
+                    <span> : </span>
                     <br>
-                    <label for="minutes">Minutos</label><br>
-                    <input id="minute" type="number" name="minutes" value=00 />
+                    <!-- <label for="minutes">Minutos</label><br> -->
+                    <input id="minute" type="number" name="minutes" value="00" />
+                    <span> : </span>                    
                     <br>
-                    <label for="seconds">Segundos</label><br>
-                    <input id="second" type="number" name="seconds" value=00 />
+                    <!-- <label for="seconds">Segundos</label><br> -->
+                    <input id="second" type="number" name="seconds" value="00" />
                     <br>
-                    <button id="start" name="data" type="button" onclick="getData()">Iniciar</button>
-                    <button id="cancel" name="data" type="button" onclick="desligar()">Cancelar</button>
                 </form>
+                <button id="start" name="data" type="button" onclick="getData()">Iniciar</button>
+                <button id="cancel" name="data" type="button" onclick="desligar()">Cancelar</button>
             </div>
             <div id="countdown">
-                <h1 id="clock">
-                    <!--CONTAGEM-->
-                    00:00:00
-                </h1>
+             <div id="clock">
+                <!--CONTAGEM-->
+                00:00:00
+             </div>
             </div>
 
         </div>
-        
         
         <div class="above">
             <hr>
