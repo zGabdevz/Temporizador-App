@@ -111,7 +111,7 @@
                              verif=false;
                              btnbegin.disabled = false;
                              view.style="color:#B0C4DE;";
-                             view.style="color:#00FA9A;";
+                             btnbegin.style="color:#00FA9A;";
                             alert("TEMPO ACABOU!"); 
                         },2000)
                     }
