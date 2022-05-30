@@ -1,9 +1,9 @@
-.container{
-           
+.container{     
     padding: 10%;
     border: 1px solid black;
-
  }
+
+ /*Titulo*/
  .title{
 
      padding-bottom:5%;
@@ -13,27 +13,40 @@
      flex-wrap: center;
 
  }
-
  .title > h1{
-
      font-size:80px;
-
+     color: #4682B4;
  }
- 
+
+ /*Formulario*/
+ form{
+    display:flex;
+    margin-bottom: 40px;
+ }
+ form > span{
+     font-size:32px;
+      margin:10px;
+ }
  .form-time form label{
      font-size:50px;
  }
  input[type="number"] {
-     height:30px;
-     border-radius: 20px;
+     height:50px;
+     width:50px;
+     margin:10px;
+     font-size:32px;
+     /*border-radius: 20px;*/
  }
- button{
 
+ /*Botoes*/
+ #start{
      margin:30px;
+     background-color: #00FA9A;
 
-     background-color: #59B87E;
      font-size: 30px;
      color: #ffff;
+     border-radius:40px;
+     border: none;
 
      height:60px;
      width:120px;
@@ -41,22 +54,29 @@
  #cancel{
      margin:30px;
 
-     background-color: #d82828;
+     background-color: #DC143C;
      font-size: 20px;
      color: #ffff;
-
+     border-radius:40px;
+     border: none;
+     
      height:60px;
      width:120px;
-     }
+ }
+
+ /* Visor Contagem */
  .countdown{
      display: flex;
      justify-content: center;
      flex-wrap: center;
  }
- #countdown > h1{
+ #countdown{
      font-size: 10vh;
+     color:#B0C4DE;
      font-family: clockicons,sans-serif;
  }
+
+ /* Layout */
  .center{
      display: flex;
      justify-content: space-around;
