@@ -107,12 +107,12 @@
                     //é finalizado a contagem.
                     if(hour == 0 && min == 0 && sec == 0)
                     {
-                        verif=false;
-                        btnbegin.disabled = false;
-                        view.style="color:#B0C4DE;";
                         setTimeout(function(){
+                             verif=false;
+                             btnbegin.disabled = false;
+                             view.style="color:#B0C4DE;";
                             alert("TEMPO ACABOU!"); 
-                        },4000)
+                        },2000)
                     }
                     
                     //Se for apertado o botao desligar,
